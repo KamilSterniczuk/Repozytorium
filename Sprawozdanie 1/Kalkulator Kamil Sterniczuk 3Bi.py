@@ -1,8 +1,6 @@
-print('Wybierz działanie 1. Dodawanie | 2. Odejmowanie | 3. Mnożenie | 4. Dzielenie | Wpisz dowolny znak aby wyjść')
+print('Wybierz działanie 1. Dodawanie | 2. Odejmowanie | 3. Mnożenie | 4. Dzielenie | Wpisz dowolny inny znak aby wyjść')
 men = str(input())
-if '1' > men > '5':
-    print('Wybrana została niepoprawna opcja!')
-else:
+if '5' > men > '1':
     if men == '1':
         liczba1 = float(input('Podaj pierwszą liczbę: '))
         wyjscie = 0
@@ -50,5 +48,5 @@ else:
                 odpd = str(input('Jeśli chcesz kontynuować działanie wpisz T lub t, jeśli chcesz wyjść wpisz dowolny znak'))
                 if odpd == 'T' or odpd == 't':
                     wyjscie = 0
-    else:
-        print('Dowidzenia!')
+else:
+    print('Dowidzenia!')
